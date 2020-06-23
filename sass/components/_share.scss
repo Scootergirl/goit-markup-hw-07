@@ -1,0 +1,27 @@
+/*убираем подчеркивание у ссылок*/
+.page {
+  margin: 0;
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+  font-family: $main-font;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link {
+  @extend %link;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/*убираем маркировку списка*/
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,35 @@
+.list-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-left: 30px;
+  & :hover {
+    color: $primary-white-color;
+    background-color: $accent-color;
+    font-family: inherit;
+    border-radius: 4px;
+  }
+}
+
+.list-buttons .item + .item {
+  margin-left: 8px;
+}
+
+.buttons {
+  background-color: #f5f4fa;
+  color: $title-text-color;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 100px;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: color 250ms $timing-function,
+    background-color 250ms $timing-function;
+}
